@@ -16,5 +16,5 @@ IFS=" "
 for proj in $list
 do
  # time docker build $proj --no-cache
- time docker-compse build $proj --no-cache
+ time docker-compose build $proj --no-cache
 done
